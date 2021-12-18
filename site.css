@@ -1,0 +1,79 @@
+#container {
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+    padding: 10px 150px 10px 150px;
+	border-radius: 15px;
+	background-color: #df020d3a;
+
+	text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading {
+    padding-top: 50px;
+}
+
+#heading img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding-right: 5px;
+    float: left;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+a {
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+a:hover,
+a:focus {
+    background-color: #fff;
+    color: #333;
+  }
+
+#profile {
+    padding-top: 20px;
+}
+
+#experience,
+#education {
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+  
